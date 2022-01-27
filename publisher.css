@@ -89,7 +89,7 @@
 }
 
 .MCLstore {
-  /* border: 7px solid #545aab; */
+  /* border: 1px solid #545aab; */
   height: 175px;
   width: 175px;
   background-color:  rgba(84, 90, 171, 0.15);
@@ -108,6 +108,28 @@
   height: 45px;
   color: #545aab;
   border-radius: 40px
+  
+}
+
+.gramediaDigital {
+  /* border: 1px solid #545aab; */
+  height: 175px;
+  width: 175px;
+  background-color:  #ffffff;
+  font-family: 'Open Sans', sans-serif; 
+  /* font-weight: 700; */
+  font-size: 24px;
+  color: #545aab;
+  border-radius: 25px;
+}
+
+.buttonGramediaDigital{
+  width: 160px;
+  border: 2px solid #545aab;
+  height: 45px;
+  color: #545aab;
+  border-radius: 40px;
+  background-color: #ffffff
   
 }
 

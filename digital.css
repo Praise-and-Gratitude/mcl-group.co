@@ -1,0 +1,88 @@
+.mt-n1 {
+  margin-top: -0.25rem !important;
+}
+
+.mt-n2 {
+    margin-top: -0.5rem !important;
+}
+.mt-n3 {
+    margin-top: -0.75rem !important;
+}
+
+.mb-n2 {
+    margin-bottom: -0.5rem !important;
+  }
+
+.ml-n1 {
+  margin-left: -0.1rem !important;
+}
+
+.ml-n2 {
+  margin-left: -0.5rem !important;
+}
+
+.ml-n5 {
+  margin-left: -1.25rem !important;
+}
+
+#headline{
+    
+    padding: 5em 0em 5em;
+    
+    background-color: #F0662F
+}
+
+.cursiveLetter{
+    font-family: 'Dancing Script', cursive;
+    font-size: 42px;
+}
+
+.mainTitle{
+    font-family: 'Montserrat', sans-serif;
+    color: #F0662F;
+    font-weight: 700;
+    font-size:  26px;
+}
+
+.textContent{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px;
+    line-height: 1.6
+}
+
+.whatwedo{
+  background-color:  rgba(240, 102, 47, 0.15);
+  padding: 2em 0em 2em;
+}
+
+.lightOrangeBackground{
+  background-color:  rgba(240, 102, 47, 0.15);
+}
+
+.subTitle{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px; 
+  font-weight: 700;
+  
+}
+
+#bottomHeadline{
+        
+  /* padding: 2em 0em 2em; */
+  
+  background-color: #F0662F
+}
+
+.bottomTitle{
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size:  26px;
+}
+
+.aHrefBlack
+{
+   color: #000000;
+   text-decoration: none; 
+   background-color: none;
+}
