@@ -1,3 +1,81 @@
+//KHSKR
+let moreKHSKR = document.getElementById('moreKHSKR')
+let fullKHSKR = document.getElementById('fullKHSKR')
+let lessKHSKR = document.getElementById('lessKHSKR')
+
+function readmoreKHSKR(){
+    fullKHSKR.style.display = 'block'
+    moreKHSKR.style.visibility = "hidden";
+    lessKHSKR.style.visibility = "visible";
+}
+
+function showlessKHSKR(){
+    fullKHSKR.style.display = 'none'
+    lessKHSKR.style.visibility = "hidden";
+    moreKHSKR.style.visibility = "visible";
+}
+moreKHSKR.addEventListener('click', readmoreKHSKR)
+lessKHSKR.addEventListener('click', showlessKHSKR) 
+
+//Sabai
+let moreSabai = document.getElementById('moreSabai')
+let fullSabai = document.getElementById('fullSabai')
+let lessSabai = document.getElementById('lessSabai')
+
+function readmoreSabai(){
+    fullSabai.style.display = 'block'
+    moreSabai.style.visibility = "hidden";
+    lessSabai.style.visibility = "visible";
+}
+
+function showlessSabai(){
+    fullSabai.style.display = 'none'
+    lessSabai.style.visibility = "hidden";
+    moreSabai.style.visibility = "visible";
+}
+moreSabai.addEventListener('click', readmoreSabai)
+lessSabai.addEventListener('click', showlessSabai) 
+
+//LYN
+let moreLYN = document.getElementById('moreLYN')
+let fullLYN = document.getElementById('fullLYN')
+let lessLYN = document.getElementById('lessLYN')
+
+function readmoreLYN(){
+    fullLYN.style.display = 'block'
+    moreLYN.style.visibility = "hidden";
+    lessLYN.style.visibility = "visible";
+}
+
+function showlessLYN(){
+    fullLYN.style.display = 'none'
+    lessLYN.style.visibility = "hidden";
+    moreLYN.style.visibility = "visible";
+}
+moreLYN.addEventListener('click', readmoreLYN)
+lessLYN.addEventListener('click', showlessLYN) 
+
+
+//Dimensi Langit Manusia
+let moreDLM = document.getElementById('moreDLM')
+let fullDLM = document.getElementById('fullDLM')
+let lessDLM = document.getElementById('lessDLM')
+
+function readmoreDLM(){
+    fullDLM.style.display = 'block'
+    moreDLM.style.visibility = "hidden";
+    lessDLM.style.visibility = "visible";
+}
+
+function showlessDLM(){
+    fullDLM.style.display = 'none'
+    lessDLM.style.visibility = "hidden";
+    moreDLM.style.visibility = "visible";
+}
+moreDLM.addEventListener('click', readmoreDLM)
+lessDLM.addEventListener('click', showlessDLM) 
+
+
 //Cipta Kerja
 let moreCiptaKerja = document.getElementById('moreCiptaKerja')
 let fullCiptaKerja = document.getElementById('fullCiptaKerja')
@@ -220,21 +298,29 @@ lesssiri.addEventListener('click', showlesssiri)
 let firstMore = document.getElementById('firstMore')
 let secondMore = document.getElementById('secondMore')
 let thirdMore = document.getElementById('thirdMore')
-let thirdBookRow = document.getElementById('thirdBookRow')
-let secondBookRow = document.getElementById('secondBookRow')
+
 let firstBookRow = document.getElementById('firstBookRow')
+let secondBookRow = document.getElementById('secondBookRow')
+let thirdBookRow = document.getElementById('thirdBookRow')
+let fourthBookRow = document.getElementById('fourthBookRow')
+let fifthBookRow = document.getElementById('fifthBookRow')
+let sixthBookRow = document.getElementById('sixthBookRow')
+let seventhBookRow = document.getElementById('seventhBookRow')
+let eighthBookRow = document.getElementById('eighthBookRow')
 
 
 function firstMoreButton(){
     firstMore.style.display = 'none'
     secondMore.style.display = 'block'
+    fifthBookRow.style.display = 'flex'
+    fourthBookRow.style.display = 'flex'
     thirdBookRow.style.display = 'flex'
-    secondBookRow.style.display = 'flex'
 }
 
 function secondMoreButton(){
     secondMore.style.display = 'none'
     //thirdMore.style.display = 'block'
+    secondBookRow.style.display = 'flex'
     firstBookRow.style.display = 'flex'
 }
 
