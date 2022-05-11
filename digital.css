@@ -86,3 +86,11 @@
    text-decoration: none; 
    background-color: none;
 }
+
+footer {
+  position: fixed;
+  height: 70px;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+}
