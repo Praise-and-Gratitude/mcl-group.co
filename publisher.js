@@ -1,3 +1,80 @@
+ //RahasiaGemini
+let moreRahasiaGemini = document.getElementById('moreRahasiaGemini')
+let fullRahasiaGemini = document.getElementById('fullRahasiaGemini')
+let lessRahasiaGemini = document.getElementById('lessRahasiaGemini')
+
+function readmoreRahasiaGemini(){
+    fullRahasiaGemini.style.display = 'block'
+    moreRahasiaGemini.style.visibility = "hidden";
+    lessRahasiaGemini.style.visibility = "visible";
+}
+
+function showlessRahasiaGemini(){
+    fullRahasiaGemini.style.display = 'none'
+    lessRahasiaGemini.style.visibility = "hidden";
+    moreRahasiaGemini.style.visibility = "visible";
+}
+moreRahasiaGemini.addEventListener('click', readmoreRahasiaGemini)
+lessRahasiaGemini.addEventListener('click', showlessRahasiaGemini)
+ 
+ //Elegi
+let moreElegi = document.getElementById('moreElegi')
+let fullElegi = document.getElementById('fullElegi')
+let lessElegi = document.getElementById('lessElegi')
+
+function readmoreElegi(){
+    fullElegi.style.display = 'block'
+    moreElegi.style.visibility = "hidden";
+    lessElegi.style.visibility = "visible";
+}
+
+function showlessElegi(){
+    fullElegi.style.display = 'none'
+    lessElegi.style.visibility = "hidden";
+    moreElegi.style.visibility = "visible";
+}
+moreElegi.addEventListener('click', readmoreElegi)
+lessElegi.addEventListener('click', showlessElegi) 
+ 
+ //Buku Kuning
+ let moreBukuKuning = document.getElementById('moreBukuKuning')
+ let fullBukuKuning = document.getElementById('fullBukuKuning')
+ let lessBukuKuning = document.getElementById('lessBukuKuning')
+ 
+ function readmoreBukuKuning(){
+     fullBukuKuning.style.display = 'block'
+     moreBukuKuning.style.visibility = "hidden";
+     lessBukuKuning.style.visibility = "visible";
+ }
+ 
+ function showlessBukuKuning(){
+     fullBukuKuning.style.display = 'none'
+     lessBukuKuning.style.visibility = "hidden";
+     moreBukuKuning.style.visibility = "visible";
+ }
+ moreBukuKuning.addEventListener('click', readmoreBukuKuning)
+ lessBukuKuning.addEventListener('click', showlessBukuKuning)
+
+//Sembilan Bintang Farmasi
+let moresembilanBintangFarmasi = document.getElementById('moresembilanBintangFarmasi')
+let fullsembilanBintangFarmasi = document.getElementById('fullsembilanBintangFarmasi')
+let lesssembilanBintangFarmasi = document.getElementById('lesssembilanBintangFarmasi')
+
+function readmoresembilanBintangFarmasi(){
+    fullsembilanBintangFarmasi.style.display = 'block'
+    moresembilanBintangFarmasi.style.visibility = "hidden";
+    lesssembilanBintangFarmasi.style.visibility = "visible";
+}
+
+function showlesssembilanBintangFarmasi(){
+    fullsembilanBintangFarmasi.style.display = 'none'
+    lesssembilanBintangFarmasi.style.visibility = "hidden";
+    moresembilanBintangFarmasi.style.visibility = "visible";
+}
+moresembilanBintangFarmasi.addEventListener('click', readmoresembilanBintangFarmasi)
+lesssembilanBintangFarmasi.addEventListener('click', showlesssembilanBintangFarmasi) 
+
+
 //KHSKR
 let moreKHSKR = document.getElementById('moreKHSKR')
 let fullKHSKR = document.getElementById('fullKHSKR')
@@ -16,6 +93,25 @@ function showlessKHSKR(){
 }
 moreKHSKR.addEventListener('click', readmoreKHSKR)
 lessKHSKR.addEventListener('click', showlessKHSKR) 
+
+//Gagule
+let moreGagule = document.getElementById('moreGagule')
+let fullGagule = document.getElementById('fullGagule')
+let lessGagule = document.getElementById('lessGagule')
+
+function readmoreGagule(){
+    fullGagule.style.display = 'block'
+    moreGagule.style.visibility = "hidden";
+    lessGagule.style.visibility = "visible";
+}
+
+function showlessGagule(){
+    fullGagule.style.display = 'none'
+    lessGagule.style.visibility = "hidden";
+    moreGagule.style.visibility = "visible";
+}
+moreGagule.addEventListener('click', readmoreGagule)
+lessGagule.addEventListener('click', showlessGagule) 
 
 //Sabai
 let moreSabai = document.getElementById('moreSabai')
@@ -307,23 +403,35 @@ let fifthBookRow = document.getElementById('fifthBookRow')
 let sixthBookRow = document.getElementById('sixthBookRow')
 let seventhBookRow = document.getElementById('seventhBookRow')
 let eighthBookRow = document.getElementById('eighthBookRow')
+let ninthBookRow = document.getElementById('ninthBookRow')
+let tenthBookRow = document.getElementById('tenthBookRow')
 
 
 function firstMoreButton(){
     firstMore.style.display = 'none'
     secondMore.style.display = 'block'
-    fifthBookRow.style.display = 'flex'
-    fourthBookRow.style.display = 'flex'
-    thirdBookRow.style.display = 'flex'
+    eighthBookRow.style.display = 'flex'
+    seventhBookRow.style.display = 'flex'
+    
 }
 
 function secondMoreButton(){
     secondMore.style.display = 'none'
-    //thirdMore.style.display = 'block'
+    thirdMore.style.display = 'block'
+    sixthBookRow.style.display = 'flex'
+    fifthBookRow.style.display = 'flex'
+    fourthBookRow.style.display = 'flex'
+    
+}
+
+function thirdMoreButton(){
+    thirdMore.style.display = 'none'
+    thirdBookRow.style.display = 'flex'
     secondBookRow.style.display = 'flex'
     firstBookRow.style.display = 'flex'
 }
 
 firstMore.addEventListener('click', firstMoreButton)
 secondMore.addEventListener('click', secondMoreButton)
+thirdMore.addEventListener('click', thirdMoreButton)
 
