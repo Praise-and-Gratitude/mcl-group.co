@@ -28,8 +28,19 @@
             <li class="nav-item">
                 <a class= "nav-link active text-dark" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="#"><b>Publisher</b></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b>Publisher</b></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#tentang-kami">Tentang Kami</a></li>
+                    <li><a class="dropdown-item" href="#mengapa-terbit-bersama-kami">Mengapa Terbit Bersama Kami</a></li>
+                    <li><a class="dropdown-item" href="#syarat-dan-pengajuan-naskah">Syarat dan Pengajuan Naskah</a></li>
+                    <li><a class="dropdown-item" href="#buku-yang-telah-terbit">Buku yang Telah Terbit</a></li>
+                    <li><a class="dropdown-item" href="#toko-mclpublisher">Toko Kami</a></li>
+                    <li><a class="dropdown-item" href="#buku-digital">Buku Digital</a></li>
+                    <li><a class="dropdown-item" href="#dari-pembaca">Dari Pembaca</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                  </ul>
             </li>
             </li>
             <li class="nav-item">
@@ -54,7 +65,7 @@
     </div>
 
     <!--Tentang Kami-->
-    <div class = "container-fluid mb-3">
+    <div class = "container-fluid mb-3" id = "tentang-kami">
         <div class ="row">
             <div class = "col-12 col-lg-7">
                 <p class = "mainTitle mt-5 ms-4">TENTANG KAMI</p>
@@ -71,7 +82,7 @@
     </div>
 
     <!--Mengapa Terbit Bersama Kami-->
-    <div class = "container-fluid lightPurpleBackground">
+    <div class = "container-fluid lightPurpleBackground" id = "mengapa-terbit-bersama-kami">
         <div class = "row">
             <p class = "mainTitle mt-5 text-center">MENGAPA TERBIT BERSAMA MCL PUBLISHER</p> 
 
@@ -106,7 +117,7 @@
     </div>
 
     <!--Syarat dan Pengajuan Naskah-->
-    <div class = "container-fluid">
+    <div class = "container-fluid" id = "syarat-dan-pengajuan-naskah">
         <div class = "row">
             <p class = "mainTitle mt-5 text-center">SYARAT DAN PENGAJUAN NASKAH</p> 
         </div>
@@ -144,20 +155,232 @@
 
     <!--Buku-Buku yang Telah Terbit-->
     <!--Catatan: Untuk satu buku dalam satu baris: 
-    <div class = "row justify-content-md-center" id = "sixthBookRow">
+    <div class = "row justify-content-md-center" id = "tenthBookRow">
     -->
-    <div class = "container-fluid lightPurpleBackground pb-5">
+    <div class = "container-fluid lightPurpleBackground pb-5" id = "buku-yang-telah-terbit">
         <div class="row pt-4 pb-4">
             <div class="col">
                 <p class = "mainTitle mt-3 text-center">BUKU-BUKU YANG TELAH TERBIT</p> 
             </div>
         </div>
 
+        <!-- Tenth Book Row -->
+        <div class = "row justify-content-md-center" id = "tenthBookRow">
+            <div class="col-md-6 pb-5" id = "rahasia-gemini">
+                <div class="card ms-4 me-4 pt-3 roundedSquare">
+                    <div class = "text-center">
+                        <img src="images/20 Rahasia Gemini.png">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="subTitle">Rahasia Gemini</h5>
+                        <p class ="textContent"><i>Sekar Ayu Asmara</i></p>
+                        <p class="textContent">
+                            Wulan dan Lintang adalah anak kembar berzodiak Gemini. Keduanya punya satu kelainan, masing-masing hanya memiliki satu kaki. Meski identik karena terlahir dari satu telur, mereka memiliki sifat dan karakter yang berbeda. Wulan introvert, sementara Lintang ekstrovert.
+                            <span id = "fullRahasiaGemini" style="display: none"> 
+                            <br>
+                            Wulan menjadi penulis cerpen yang hanya mau karyanya disajikan secara digital. Selepas kejadian traumatik, Wulan memilih tinggal di Bali. Sementara Lintang terobsesi menjadi pembuat film dokumenter. Ia melanjutkan kuliah di London, Inggris. Lintang menjalin cinta serius dengan penyanyi tunanetra bernama Midnight. Sementara Wulan punya hubungan dengan pemilik usaha menyelam bernama Prapança.
+                            <br>
+                            <br>        
+                            Trauma lama kembali merasuk kehidupan Wulan dan Lintang. Pada saatnya, satu per satu kebenaran pun terungkap. Akhirnya, takdir bersabda. Dan hanya cinta tanpa syarat yang mampu mendamaikan sepasang anak kembar ini.
+                            <br>
+                            <br>
+                            Genre   : Romance
+                            <br>
+                            Ukuran	: 13cmx19cm
+                            <br>
+                            Sampul	: Art Carton 260gr + Laminating Glossy
+                            <br>
+                            Isi     : HVS 80 gr
+                            <br>
+                            Jumlah Halaman	: 314
+                            <br>
+                            ISBN	: 978-623-5915-13-5
+                            <br>
+                            Harga	: Rp99.000,-
+                            </span>
+                        </p>
+                          
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" style="color:#545aab" id= "moreRahasiaGemini" >
+                                    Read More
+                                </button>
+                            </div>
+                            
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" id= "lessRahasiaGemini" style= "visibility: hidden ; color:#545aab">
+                                    Show Less
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 pb-5" id = "elegi-masa-pandemi">
+                <div class="card ms-4 me-4 pt-3 roundedSquare">
+                    <div class = "text-center">
+                        <img src="images/19Elegi.png">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="subTitle">Elegi Masa Pandemi</h5>
+                        <p class ="textContent"><i>Anugrah Gio Pratama</i></p>
+                        <p class="textContent">
+                            Sebuah buku Puisi karya Anugrah Gio Pratama
+                            <br>
+                            <br>
+                            Penyair akrab dan sering terinspirasi oleh malaetaka atau musibah, baik secara pribadi maupun massal. Pandemi Covid-19 merupakan bencana yang mengguncang dunia, mempengaruhi begitu banyak aspek kehidupan, bahkan memakan korban jutaan jiwa.
+                            <span id = "fullElegi" style="display: none"> 
+                            <br>
+                            Elegi Masa Pandemi lahir persis pada situasi seperti itu. Anugrah Gio Pratama menangkap dan mengekspresikan kemurungan, kematian, melankoli yang begitu sering kita saksikan dalam kehidupan sehari-hari. 
+                            <br>
+                            <br>        
+                            Seiring popularitas yang berkibar, satu persatu masalah datang membelit. Menghantam kesabaran, menggodam penalaran, merajam keimanan. Sabai limbung, terbanting, susah payah bangkit menyusun ulang semua yang dipahaminya tentang persahabatan, kesuksesan, kebahagiaan, pengorbanan, dan cinta. Termasuk hubungannya dengan Jems Boyon (Dayon) yang masih menyisakan misteri yang bahkan tak bisa dipahaminya sendiri. 
+                            <br>
+                            <br>
+                            Genre: Puisi
+                            <br>
+                            Ukuran: 13x19cm
+                            <br>
+                            Sampul: Art Carton 260gr + Laminating Glossy
+                            <br>
+                            Isi     : HVS 80 gr
+                            <br>
+                            Jumlah Halaman	: 84
+                            <br>
+                            ISBN	: 978-623-98223-4-7
+                            <br>
+                            Harga: Rp65.000,-        
+                            </span>
+                        </p>
+                          
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" style="color:#545aab" id= "moreElegi" >
+                                    Read More
+                                </button>
+                            </div>
+                            
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" id= "lessElegi" style= "visibility: hidden ; color:#545aab">
+                                    Show Less
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ninth Book Row -->
+        <div class = "row justify-content-md-center" id = "ninthBookRow">
+            <div class="col-md-6 pb-5">
+                <div class="card ms-4 me-4 pt-3 roundedSquare">
+                    <div class = "text-center">
+                        <img src="images/18Penyalahgunaan Wewenang.png">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="subTitle">Benang Merah Penyalahgnaan Kewenangan Dan Diskresi Antara Hukum Administrasi Dan Hukum Pidana (Korupsi)</h5>
+                        <p class ="textContent"><i>M.Irsan Arief, S.H.,M.H.</i></p>
+                        <p class="textContent">
+                            Kriteria penyalahgunaan kewenangan dan diskresi yang dilakukan Pejabat Publik/Pemerintahan menurut perspektif hukum administrasi dan perspektif hukum pidana (tindak pidana korupsi) menjadi penting untuk dipahami agar tidak menimbulkan kekhawatiran terjadinya kriminalisasi (pertanggungjawaban pidana). Kekhawatiran ini, di antaranya akan berdampak pada rendahnya penyerapan anggaran dan pelaksanaan program atau kegiatan pemerintahan yang tidak mencapai target. 
+                            <span id = "fullBukuKuning" style="display: none"> 
+                            <br>
+                            Mahkamah Konstitusi (MK) dalam Putusan Nomor25/PUU-XIV/2016 telah mengubah paradigma pandangannya sebagaimana Putusan MK Nomor 003/PUU-IV/2008 yang sebelumnya menyatakan bahwa Pasal 2 ayat (1) dan Pasal 3 UU Tipikor termasuk delik formil (potential loss) telah bergerser menjadi detik materiil (actual loss) dengan berlakunya Undang-Undang Nomor 30 Tahun 2014 tentang Administrasi Pemerintahan (UU Administrasi Pemerintahan).
+                            <br>
+                            <br>        
+                            UU Administrasi Pemerintahan mengatur antara lain hasil pemeriksaan Aparat Pengawasan Intern Pemerintah (APIP) dapat berupa adanya kesalahan administrasi yang menimbulkan kerugian keuangan negara(Pasal 20 ayat (2) huruf c UU Administrasi Pemerintahan) mekanisme penanganannya dilakukan dengan prosedur administrasi dan sanksi administrasi. Aturan ini memperjelas “green area” (wilayah abu-abu) antara domain hukum administrasi dan domain hikum pidana/korupsi. Jika konsep maupun praktiknya tidak tepat dipahami, maka keberadaan UU Administrasi Pemerintahan akan melemahkan upaya pemberantasan tindak pidana korupsi. 
+                            <br>
+                            <br>
+                            Buku ini memberikan penjelasan mengenai benang merah penyalahgunaan kewenangan dan diskresi antara hukum administrasi dan hukum pidana/korupsi sehingga dapat dibedakan dengan jelas dan tepat kareakteristik ranah hukum dari masing-masing bidang hukum tersebut.
+                            <br>
+                            <br>
+                            Genre: Buku Referensi/Hukum
+                            <br>
+                            Ukuran: 14x20,5cm
+                            <br>
+                            Sampul: Art Carton 260gr + Laminating Glossy
+                            <br>
+                            Isi: HVS 80 gr
+                            <br>
+                            Jumlah Halaman	: 232
+                            <br>
+                            ISBN: 978-623-5915-09-8
+                            <br>
+                            Harga: Rp105.000,-       
+                            </span>
+                        </p>
+                          
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" style="color:#545aab" id= "moreBukuKuning" >
+                                    Read More
+                                </button>
+                            </div>
+                            
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" id= "lessBukuKuning" style= "visibility: hidden ; color:#545aab">
+                                    Show Less
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 pb-5">
+                <div class="card ms-4 me-4 pt-3 roundedSquare">
+                    <div class = "text-center">
+                        <img src="images/17Farmasi.png">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="subTitle">Sembilan Bintang Farmasi - 25 Cerita untuk Calon Farmasi</h5>
+                        <p class ="textContent"><i>Setiadi Ihsan, S.Si, M.Si.</i></p>
+                        <p class="textContent">
+                            Farmasi memiliki sejarah panjang di dunia kesehatan. Pekembangannya tidak bisa dilepaskan dari kedokteran. Farmasi dan kedokteran awalnya satu bidang, yaitu upaya penyembuhan atau pengobatan meliputi proses penegakan diagnosis dan penyiapan obat.
+                            <span id = "fullsembilanBintangFarmasi" style="display: none"> 
+                            <br>
+                            Ketika farmasi menjadi disiplin ilmu tersendiri, perubahan ini berdampak pada ilmu dan telknologi farmasi, seni pengobatan, praktik, industri distribusi, apotek, asosiasi profesi, sekaligus menyebabkan farmasi berinteraksi dengan ilmu lain. 
+                            <br>
+                            <br>        
+                            Keluasan ilmu farmasi tidak lepas dari tanggung jawab untuk menyediakan obat yang berkulaitas dan melayani pasien. Kedua orientasi ini membentuk kompetensi utama farmasis, yaitu penguasaan sains kefarmasian dan manajemen kefarmasian, sekaligus berusaha mencapai visi Sembilan Bintang Farmasi.     
+                            <br>
+                            <br>
+                            Buku Sembilan Bintang Farmasi ini menyuntikkan booster moral-motivasional bagi calon farmasis atau mahasiswa baru program studi farmasi, terutama dalam menghadapi tantangan, tegar, hingga mampu menciptakan peluang masa mendatang. Penulis juga mengulas sejarah dan tanggung jawab kefarmasian.
+                            <br>
+                            <br>
+                            Genre: Kesehatan
+                            <br>
+                            Ukuran: 14x20,5cm
+                            <br>
+                            Sampul: Art Carton 260gr + Laminating Glossy
+                            <br>
+                            Isi: HVS 80 gr
+                            <br>
+                            Jumlah Halaman: 182
+                            <br>
+                            ISBN: 978-623-5915-07-4
+                            <br>
+                                
+                            </span>
+                        </p>
+                        
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" style="color:#545aab" id= "moresembilanBintangFarmasi" >
+                                    Read More
+                                </button>
+                            </div>
+                            
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" id= "lesssembilanBintangFarmasi" style= "visibility: hidden ; color:#545aab">
+                                    Show Less
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!--Eighth Book Row-->
-        <div class = "row justify-content-md-center" id = "eighthBookRow">
+        <div class = "row" style= "display:none;" id = "eighthBookRow">
             <div class="col-md-6 pb-5">
-                <div class="card ms-4 me-4 pt-3 roundedSquare" id = "KHSKR">
+                <div class="card ms-4 me-4 pt-3 roundedSquare">
                     <div class = "text-center">
                         <img src="images/15KHSKR.png">
                     </div>
@@ -178,9 +401,11 @@
                             <br>
                             Ukuran: 13x19cm
                             <br>
-                            Sampul: Soft Cover
+                            Sampul: Art Carton 260gr + Laminating Glossy
                             <br>
-                            Jumlah Halaman: 154
+                            Isi: HVS 80 gr
+                            <br>
+                            Jumlah Halaman: 152
                             <br>
                             ISBN: 978-623-5915-05-0
                             <br>
@@ -202,18 +427,69 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="col-md-6 pb-5">
+                <div class="card ms-4 me-4 pt-3 roundedSquare">
+                    <div class = "text-center">
+                        <img src="images/15 Gagule 2.jpg">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="subTitle">Gagule Di Tubuhku</h5>
+                        <p class ="textContent"><i>Rinaju Purnomowulan & Yulia Sofiatin</i></p>
+                        <p class="textContent">
+                            Mutiara kaget dikunjungi Dokter Osehat saat sedang main bersama teman-temannya. Wah… ada apa ya? Ternyata Dokter Osehat mau cerita soal Gagule. Apa itu Gagule? 
+                            <span id = "fullGagule" style="display: none"> 
+                            <br>
+                            Gagule ada dalam semua makanan favorit anak-anak. Kalau kebanyakan Gagule, bisa-bisa suatu saat nanti kita terserang penyakit berbahaya, seperti hipertensi, diabetes, jantung, dan stroke. Karena itu kita harus hati-hati sama Gagule.
+                            <br>
+                            <br>        
+                            Yuk, ikuti kisah Mutiara dan teman-temannya, biar kita jadi paham tentang pentingnya gaya hidup sehat dan tidak makan segala sesuatu secara berlebihan.     
+                            <br>
+                            <br>
+                            Genre: Cerita Anak
+                            <br>
+                            Ukuran: A4, Jilid Steples
+                            <br>
+                            Sampul: Art Carton 260gr + Laminating Glossy
+                            <br>
+                            Isi: HVS 80 gr
+                            <br>
+                            Jumlah Halaman: 68
+                            <br>
+                            ISBN: 978-623-5915-03-6
+                            <br>
+                            Harga: Rp100.000,-
+                            </span>
+                        </p>
+                        
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" style="color:#545aab" id= "moreGagule" >
+                                    Read More
+                                </button>
+                            </div>
+                            
+                            <div class = "d-flex justify-content-end">
+                                <button type ="button" class = "btn btn-light" id= "lessGagule" style= "visibility: hidden ; color:#545aab">
+                                    Show Less
+                                </button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
         </div>    
         
         
         <!--Seventh Book Row-->
-        <div class = "row" id = "seventhBookRow">
+        <div class = "row" style= "display:none;" id = "seventhBookRow">
             <div class="col-md-6 pb-5">
                 <div class="card ms-4 me-4 pt-3 roundedSquare">
                     <div class = "text-center">
                         <img src="images/14Sabai.png">
                     </div>
                     <div class="card-body">
-                        <h5 class="subTitle">Sabai</h5>
+                        <h5 class="subTitle">Sabai Sunwoo</h5>
                         <p class ="textContent"><i>Akmal Nassery Basral</i></p>
                         <p class="textContent">
                             Sabai Rangkayo Sunwoo lahir dan menghabiskan masa kanak-kanak di Seoul, Korea Selatan, sebagai anak tunggal pasangan Korea (ayah) dan Minangkabau (ibu). Setelah itu dia pindah ke Jakarta di pertengahan tahun 90-an akibat perpisahan orang tuanya. Sebuah agensi model mengendus talenta sang remaja dan mengorbitkannya sebagai model internasional yang bermukim di Singapura
@@ -229,9 +505,11 @@
                             <br>
                             Ukuran: 13x19cm
                             <br>
-                            Sampul: Soft Cover
+                            Sampul: Art Carton 260gr + Laminating Doff
                             <br>
-                            Jumlah Halaman: 308
+                            Isi: HVS 80 gr
+                            <br>
+                            Jumlah Halaman: 316
                             <br>
                             ISBN: 978-623-5915-01-2
                             <br>
@@ -278,11 +556,13 @@
                             <br>
                             Genre: Teenlit/Romance
                             <br>
-                            Ukuran: 13x19cm
+                            Ukuran: Art Carton 260gr + Laminating Doff
+                            <br>
+                            Isi: HVS 80 gr
                             <br>
                             Sampul: Soft Cover
                             <br>
-                            Jumlah Halaman: 286
+                            Jumlah Halaman: 312
                             <br>
                             ISBN: 978-623-98223-3-0
                             <br>
@@ -307,7 +587,7 @@
         </div>
         
         <!--Sixth Book Row-->
-        <div class = "row" id = "sixthBookRow">
+        <div class = "row" style= "display:none;" id = "sixthBookRow">
             <div class="col-md-6 pb-5">
                 <div class="card ms-4 me-4 pt-3 roundedSquare">
                     <div class = "text-center">
@@ -336,7 +616,9 @@
                             <br>
                             Ukuran: 14cm x 20,5cm
                             <br>
-                            Sampul: Soft Cover, Doff, Emboss
+                            Sampul: Art Carton 260gr + Laminating Doff
+                            <br>
+                            Isi: HVS 80 gr
                             <br>
                             Jumlah Halaman: 314
                             <br>
@@ -397,7 +679,11 @@
                             <br>
                             Isi : HVS 80gr
                             <br>
-                            Halaman : 336
+                            Jumlah Halaman : 336
+                            <br>
+                            ISBN: 978-623-98223-7-8
+                            <br>
+                            Harga: Rp140.000,-
                             </span>
                         </p>
                           
@@ -446,11 +732,11 @@
                             <br>
                             Isi : HVS 80gr
                             <br>
-                            Halaman : 336
+                            Jumlah Halaman : 336
                             <br>
                             ISBN : 978-623-96067-9-4
                             <br>
-                            Harga: Rp96.000,-
+                            Harga: Rp98.000,-
                             </span>
             
                           </p>
@@ -502,7 +788,7 @@
                             <br>
                             Isi : HVS 80gr
                             <br>
-                            Halaman : 232
+                            Jumlah Halaman : 232
                             <br>
                             ISBN : 978-623-96067-7-0
                             <br>
@@ -889,7 +1175,7 @@
             </div>
             
             
-            <div class="col-md-6 pb-5">
+            <div class="col-md-6 pb-5" id = "siri">
                 <div class="card ms-4 me-4 pt-4 roundedSquare">
                   <div class = "text-center">
                       <img src="images/newSiri.png">
@@ -952,7 +1238,7 @@
         </div>
 
         <div class="d-grid gap-2">
-            <button class="btn loadMoreButton btn-lg textContent ms-4 me-4" type="button" style= "background-color: white; display: none"  id = "thirdMore">Testing Dua</button>
+            <button class="btn loadMoreButton btn-lg textContent ms-4 me-4" type="button" style= "background-color: white; display: none"  id = "thirdMore">Load More</button>
             
         </div>
 
@@ -960,15 +1246,14 @@
 
 
 <!--Toko MCL Publisher-->
-<div class = "container-fluid pb-5">
+<div class = "container-fluid pb-5" id = "toko-mclpublisher">
     <div class = "row">
         <div class = "col">
             <p class ="mainTitle text-center mt-5 mb-5">TOKO MCL-PUBLISHER</p>
         </div>
     </div>
 
-    <div class ="row">
-        
+    <div class ="row justify-content-center">
         <div class = "col-6 col-lg-3 mb-4">
             <div class = "text-center">
                 <p class ="MCLstore align-baseline d-inline-flex align-items-center justify-content-center roundedSquare">Tokopedia</p>
@@ -976,15 +1261,6 @@
                 <a target = "_blank" href = "https://www.tokopedia.com/mclpublisher" class = "aHrefBlack buttonMCLstore d-inline-flex align-items-center justify-content-center mt-2 textContent">View</a>
             </div>
         </div>
-
-        <div class = "col-6 col-lg-3">
-            <div class = "text-center">
-                <p class ="MCLstore align-baseline d-inline-flex align-items-center justify-content-center">Bukalapak</p>
-                <br>
-                <a target = "_blank" href = "https://www.bukalapak.com/u/mclpublisher" class = "aHrefBlack buttonMCLstore d-inline-flex align-items-center justify-content-center mt-2 textContent">View</a>
-            </div>
-        </div>
-
         <div class = "col-6 col-lg-3">
             <div class = "text-center">
                 <p class ="MCLstore align-baseline d-inline-flex align-items-center justify-content-center">Shopee</p>
@@ -992,21 +1268,11 @@
                 <a target = "_blank" href = "https://shopee.co.id/mekarciptalestari?categoryId=100643&itemId=5670408519" class = "aHrefBlack buttonMCLstore d-inline-flex align-items-center justify-content-center mt-2 textContent">View</a>
             </div>
         </div>
-
-        <div class = "col-6 col-lg-3">
-            <div class = "text-center">
-                <p class ="MCLstore align-baseline d-inline-flex align-items-center justify-content-center">Tokotalk</p>
-                <br>
-                <a target = "_blank" href = "https://toko.ly/mclpublisher/home" class = "aHrefBlack buttonMCLstore d-inline-flex align-items-center justify-content-center mt-2 textContent">View</a>
-            </div>
-        </div>
-    
-
-</div>
+    </div>
 </div>
 
 <!--Buku Digital-->
-<div class = "container-fluid pb-5 lightPurpleBackground">
+<div class = "container-fluid pb-5 lightPurpleBackground" id = "buku-digital">
     <div class = "row">
         <div class = "col mb-4">
             <p class = "mainTitle mt-5 text-center">BUKU DIGITAL MCL-PUBLISHER</p> 
@@ -1031,7 +1297,7 @@
 <!--Dari Pembaca-->
 <section>
     <div class="container-fluid pb-4" id= "bottomHeadline">
-        <div class="row">
+        <div class="row" id = "dari-pembaca">
             <div class="col">
                 <p class = "bottomTitle text-center mt-5">DARI PEMBACA</p>
             </div>
@@ -1047,7 +1313,7 @@
                                     <div class="card border-0" style= "background-color: #545aab">
                                         
                                         <div class="card-body bottomHeadline">
-                                            <p class = "textContent text-white text-center me-4 ms-4">
+                                            <p class = "textContent text-white me-4 ms-4">
                                                 “Roman yang memikat. Sepintas lalu santai, tapi strukturnya penuh perhitungan rinci. Mungkin malah ini seni-struktur, bukan bahasa. Ikuti saja. Ikut maju tapi mundur terus. Lintas waktu. Lintas ruang. Lintas subjek yang berbicara. Cinta, adat, politik, gender, kekerasan, dengan cita rasa kosmopolitan. Turistik juga sih tapi tidak ndeso. Padahal tradisi tak pernah pergi. Kepedihan dan kegetiran, dalam melankoli urban yang menolak air mata. Wajib disimak untuk mengenal hari ini.”
                                                 
                                             </p>
@@ -1066,7 +1332,7 @@
                                     <div class="card border-0" style= "background-color: #545aab">
                                         
                                         <div class="card-body bottomHeadline">
-                                            <p class = "textContent text-white text-center me-4 ms-4">
+                                            <p class = "textContent text-white  me-4 ms-4">
                                                 
                                                 “Kumpulan cerita yang menarik. Bagaimana situasi pandemi membuat kita diikat oleh pengalaman yang sama, juga harapan yang sama. Membaca buku ini, kita semakin tersadarkan; betapa rentannya manusia.”
                                             </p>
@@ -1085,7 +1351,7 @@
                                     <div class="card border-0" style= "background-color: #545aab">
                                         
                                         <div class="card-body bottomHeadline">
-                                            <p class = "textContent text-white text-center me-4 ms-4">
+                                            <p class = "textContent text-white  me-4 ms-4">
                                                 “Motifnya oke, membentuk kehidupan yang lebih baik, namun eksekusinya akhirnya menampakkan sejatinya, baik untuk siapa??? Ide penulis oke juga mengangkat isu kekuasaan berbalut fantasi.”
                                                 
                                             </p>
@@ -1106,11 +1372,11 @@
                         <div class="carousel-item" data-bs-interval = "15000">
                             <div class="row">
 
-                                <div class="col-md-6 mb-3">
+                                <div class="col-md-4 mb-3">
                                     <div class="card border-0" style= "background-color: #545aab">
                                         
                                         <div class="card-body bottomHeadline">
-                                            <p class = "textContent text-white text-center me-4 ms-4">
+                                            <p class = "textContent text-white me-4 ms-4">
                                                 “Novel yang dituturkan dengan sangat menarik, provokatif, lucu, menggoda nalar.”
                                                 
                                             </p>
@@ -1125,11 +1391,32 @@
 
                                     </div>
                                 </div>
-                                <div class="col-md-6 mb-3">
+
+                                <div class="col-md-4 mb-3">
                                     <div class="card border-0" style= "background-color: #545aab">
                                         
                                         <div class="card-body bottomHeadline">
-                                            <p class = "textContent text-white text-center me-4 ms-4">
+                                            <p class = "textContent text-white me-4 ms-4">
+                                                “Saya rekomendasikan novel ini untuk pembaca yang mencari buku fiksi dengan topik kehidupan tokoh dari dua budaya negara berbeda, khususnya Korea Selatan dan Indonesia. Kisahnya berdrama tapi dijaga tetap ringan. Mengalir dan ada humornya sedikit-sedikit, plus sedikit bumbu horor. Sarat pengetahuan berupa detail informasi lokasi, makanan, pakaian, baik lokal maupun Korsel. Ada plot twistnya. Endingnya somehow bikin kita penasaran, ingin lanjut ke buku berikutnya.”
+                                                
+                                            </p>
+                                            <p class = "textContent text-white text-end me-4 ms-4">
+                                                <b>@dipidiffofficial</b>
+                                            </p>
+                                            <p class = "textContent text-white text-end me-4 ms-4 mt-n3">
+                                                (Ulasan Buku Sabai)                   
+                                                
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4 mb-3">
+                                    <div class="card border-0" style= "background-color: #545aab">
+                                        
+                                        <div class="card-body bottomHeadline">
+                                            <p class = "textContent text-white me-4 ms-4">
                                                 "Aku nyelesaiin ini dalam sekali duduk tadi malem. Wah, best experience sih baca ini malem-malem karena beneran kerasa horrornya wkwkwkwk.
                                                 <!-- <br>
                                                 ...
