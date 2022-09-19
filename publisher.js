@@ -1,4 +1,42 @@
- //RahasiaGemini
+//Kerugian Keuangan Negara
+let moreKerugianKeuanganNegara = document.getElementById('moreKerugianKeuanganNegara')
+let fullKerugianKeuanganNegara = document.getElementById('fullKerugianKeuanganNegara')
+let lessKerugianKeuanganNegara = document.getElementById('lessKerugianKeuanganNegara')
+
+function readmoreKerugianKeuanganNegara(){
+    fullKerugianKeuanganNegara.style.display = 'block'
+    moreKerugianKeuanganNegara.style.visibility = "hidden";
+    lessKerugianKeuanganNegara.style.visibility = "visible";
+}
+
+function showlessKerugianKeuanganNegara(){
+    fullKerugianKeuanganNegara.style.display = 'none'
+    lessKerugianKeuanganNegara.style.visibility = "hidden";
+    moreKerugianKeuanganNegara.style.visibility = "visible";
+}
+moreKerugianKeuanganNegara.addEventListener('click', readmoreKerugianKeuanganNegara)
+lessKerugianKeuanganNegara.addEventListener('click', showlessKerugianKeuanganNegara) 
+
+//Mendirikan Salat Menegakan Peradaban
+let moreMendirikanSalat = document.getElementById('moreMendirikanSalat')
+let fullMendirikanSalat = document.getElementById('fullMendirikanSalat')
+let lessMendirikanSalat = document.getElementById('lessMendirikanSalat')
+
+function readmoreMendirikanSalat(){
+    fullMendirikanSalat.style.display = 'block'
+    moreMendirikanSalat.style.visibility = "hidden";
+    lessMendirikanSalat.style.visibility = "visible";
+}
+
+function showlessMendirikanSalat(){
+    fullMendirikanSalat.style.display = 'none'
+    lessMendirikanSalat.style.visibility = "hidden";
+    moreMendirikanSalat.style.visibility = "visible";
+}
+moreMendirikanSalat.addEventListener('click', readmoreMendirikanSalat)
+lessMendirikanSalat.addEventListener('click', showlessMendirikanSalat) 
+
+//RahasiaGemini
 let moreRahasiaGemini = document.getElementById('moreRahasiaGemini')
 let fullRahasiaGemini = document.getElementById('fullRahasiaGemini')
 let lessRahasiaGemini = document.getElementById('lessRahasiaGemini')
