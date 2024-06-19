@@ -1,5 +1,3 @@
 {
-  "redirects": [
-    { "source": "/publisher", "destination": "/publisher.html", "permanent": false }
-  ]
+  "rewrites": [{ "source": "/publisher", "destination": "/publisher.html" }]
 }
