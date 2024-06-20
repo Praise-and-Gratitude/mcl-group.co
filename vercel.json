@@ -1,3 +1,6 @@
 {
-  "rewrites": [{ "source": "/publisher", "destination": "/publisher.html" }]
+  "rewrites": [
+    { "source": "/publisher", "destination": "/publisher.html" },
+    { "source": "/sang-penceramah", destination: "/sang-penceramah.html"}
+  ]
 }
