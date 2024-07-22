@@ -2,6 +2,7 @@
   "rewrites": [
     { "source": "/publisher", "destination": "/publisher.html" },
     { "source": "/sang-penceramah", "destination" : "/sang-penceramah.html"},
-    { "source": "/pelayaran-terakhir", "destination" : "/pelayaran-terakhir.html"}
+    { "source": "/pelayaran-terakhir", "destination" : "/pelayaran-terakhir.html"},
+    { "source": "/", "destination": "/publisher.html" }
   ]
 }
