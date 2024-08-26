@@ -91,6 +91,7 @@ border-color: #545aab;
 color: #545aab;
 }
 
+
 .MCLstore {
 /* border: 1px solid #545aab; */
 height: 175px;
@@ -101,6 +102,12 @@ font-family: 'Open Sans', sans-serif;
 font-size: 24px;
 color: #545aab;
 border-radius: 25px;
+}
+
+.MCLstoreFont {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 24px;
+  color: #545aab;
 }
 
 .buttonMCLstore{
