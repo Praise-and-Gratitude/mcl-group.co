@@ -1,0 +1,156 @@
+.mt-n2 {
+  margin-top: -0.5rem !important;
+}
+.mt-n3 {
+  margin-top: -0.75rem !important;
+}
+
+.mb-n2 {
+  margin-bottom: -0.5rem !important;
+}
+
+.ml-n1 {
+margin-left: -0.1rem !important;
+}
+
+.ml-n2 {
+margin-left: -0.5rem !important;
+}
+
+.ml-n5 {
+margin-left: -1.25rem !important;
+}
+
+.whatsappMargin {
+margin-left: 22rem !important;
+}
+
+#headline{
+  
+  padding: 5em 0em 5em;
+  
+  background-color: #545aab
+}
+
+#bottomHeadline{
+  
+/* padding: 2em 0em 2em; */
+
+background-color: #545aab
+}
+
+.cursiveLetter{
+  font-family: 'Dancing Script', cursive;
+  font-size: 42px;
+}
+
+.mainTitle{
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-weight: 700;
+  font-size:  26px;
+}
+
+.bottomTitle{
+font-family: 'Montserrat', sans-serif;
+color: #ffffff;
+font-weight: 700;
+font-size:  26px;
+}
+
+.subTitle{
+font-family: 'Open Sans', sans-serif;
+font-size: 20px; 
+font-weight: 700;
+
+}
+
+.textContent{
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 16px;
+  line-height: 1.6
+}
+
+.lightPurpleBackground{
+  background-color:  rgba(84, 90, 171, 0.15)
+}
+
+.aHrefBlack
+{
+ color: #000000;
+ text-decoration: none; 
+ background-color: none;
+}
+
+.roundedSquare{
+border-radius: 2%;
+}
+
+.loadMoreButton{
+border-color: #545aab;
+color: #545aab;
+}
+
+
+.MCLstore {
+/* border: 1px solid #545aab; */
+height: 175px;
+width: 175px;
+background-color:  rgba(84, 90, 171, 0.15);
+font-family: 'Open Sans', sans-serif; 
+/* font-weight: 700; */
+font-size: 24px;
+color: #545aab;
+border-radius: 25px;
+}
+
+.MCLstoreFont {
+  font-family: 'Open Sans', sans-serif; 
+  font-size: 24px;
+  color: #545aab;
+}
+
+.buttonMCLstore{
+width: 160px;
+border: 2px solid #545aab;
+height: 45px;
+color: #545aab;
+border-radius: 40px
+}
+
+.gramediaDigital {
+/* border: 1px solid #545aab; */
+height: 175px;
+width: 175px;
+background-color:  #ffffff;
+font-family: 'Open Sans', sans-serif; 
+/* font-weight: 700; */
+font-size: 24px;
+color: #545aab;
+border-radius: 25px;
+}
+
+.buttonGramediaDigital{
+width: 160px;
+border: 2px solid #545aab;
+height: 45px;
+color: #545aab;
+border-radius: 40px;
+background-color: #ffffff
+}
+
+footer {
+position: fixed;
+height: 70px;
+bottom: 0;
+right: 0;
+width: 70px;
+}
+
+
+
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
