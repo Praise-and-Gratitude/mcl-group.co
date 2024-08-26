@@ -1,430 +1,571 @@
+//Reformulasi Uang Pengganti
+let moreReformulasiUangPengganti = document.getElementById('moreReformulasiUangPengganti')
+let fullReformulasiUangPengganti = document.getElementById('fullReformulasiUangPengganti')
+
+function readmoreReformulasiUangPengganti(){
+    fullReformulasiUangPengganti.style.display = 'block'
+    moreReformulasiUangPengganti.style.visibility = "hidden";
+
+}
+
+function showlessReformulasiUangPengganti(){
+    fullReformulasiUangPengganti.style.display = 'none'
+    moreReformulasiUangPengganti.style.visibility = "visible";
+}
+
+moreReformulasiUangPengganti.addEventListener('click', readmoreReformulasiUangPengganti)
+
+
+//Kita Dan Kata
+let moreKitaDanKata = document.getElementById('moreKitaDanKata')
+let fullKitaDanKata = document.getElementById('fullKitaDanKata')
+
+function readmoreKitaDanKata(){
+    fullKitaDanKata.style.display = 'block'
+    moreKitaDanKata.style.visibility = "hidden";
+}
+
+function showlessKitaDanKata(){
+    fullKitaDanKata.style.display = 'none'
+    moreKitaDanKata.style.visibility = "visible";
+}
+
+moreKitaDanKata.addEventListener('click', readmoreKitaDanKata)
+
+
+//KUHP2
+let moreKUHP2 = document.getElementById('moreKUHP2')
+let fullKUHP2 = document.getElementById('fullKUHP2')
+
+
+function readmoreKUHP2(){
+    fullKUHP2.style.display = 'block'
+    moreKUHP2.style.visibility = "hidden";
+    
+}
+
+function showlessKUHP2(){
+    fullKUHP2.style.display = 'none'
+    moreKUHP2.style.visibility = "visible";
+}
+moreKUHP2.addEventListener('click', readmoreKUHP2)
+
+
+
+//Kita Di Titik Temu
+let moreKitaDiTitikTemu = document.getElementById('moreKitaDiTitikTemu')
+let fullKitaDiTitikTemu = document.getElementById('fullKitaDiTitikTemu')
+
+
+function readmoreKitaDiTitikTemu(){
+    fullKitaDiTitikTemu.style.display = 'block'
+    moreKitaDiTitikTemu.style.visibility = "hidden";
+    
+}
+
+function showlessKitaDiTitikTemu(){
+    fullKitaDiTitikTemu.style.display = 'none'
+    moreKitaDiTitikTemu.style.visibility = "visible";
+}
+
+moreKitaDiTitikTemu.addEventListener('click', readmoreKitaDiTitikTemu)
+
+
+//Sang Penceramah
+let moreSangPenceramah = document.getElementById('moreSangPenceramah')
+let fullSangPenceramah = document.getElementById('fullSangPenceramah')
+
+
+function readmoreSangPenceramah(){
+    fullSangPenceramah.style.display = 'block'
+    moreSangPenceramah.style.visibility = "hidden";
+    
+}
+
+function showlessSangPenceramah(){
+    fullSangPenceramah.style.display = 'none'
+    moreSangPenceramah.style.visibility = "visible";
+}
+moreSangPenceramah.addEventListener('click', readmoreSangPenceramah)
+
+
+//Tindak Pidana Cipta Kerja
+let moreTindakPidanaCiptaKerja = document.getElementById('moreTindakPidanaCiptaKerja')
+let fullTindakPidanaCiptaKerja = document.getElementById('fullTindakPidanaCiptaKerja')
+
+
+function readmoreTindakPidanaCiptaKerja(){
+    fullTindakPidanaCiptaKerja.style.display = 'block'
+    moreTindakPidanaCiptaKerja.style.visibility = "hidden";
+    
+}
+
+function showlessTindakPidanaCiptaKerja(){
+    fullTindakPidanaCiptaKerja.style.display = 'none'
+    moreTindakPidanaCiptaKerja.style.visibility = "visible";
+}
+moreTindakPidanaCiptaKerja.addEventListener('click', readmoreTindakPidanaCiptaKerja)
+
+
+//POV
+let morePOV = document.getElementById('morePOV')
+let fullPOV = document.getElementById('fullPOV')
+
+
+function readmorePOV(){
+    fullPOV.style.display = 'block'
+    morePOV.style.visibility = "hidden";
+    
+}
+
+function showlessPOV(){
+    fullPOV.style.display = 'none'
+    morePOV.style.visibility = "visible";
+}
+morePOV.addEventListener('click', readmorePOV)
+
+
+//KUHP
+let moreKUHP = document.getElementById('moreKUHP')
+let fullKUHP = document.getElementById('fullKUHP')
+
+
+function readmoreKUHP(){
+    fullKUHP.style.display = 'block'
+    moreKUHP.style.visibility = "hidden";
+
+}
+
+function showlessKUHP(){
+    fullKUHP.style.display = 'none'
+    moreKUHP.style.visibility = "visible";
+}
+moreKUHP.addEventListener('click', readmoreKUHP)
+
+
+//Helium Mengelilingi Kita
+let moreHeliumMengelilingiKita = document.getElementById('moreHeliumMengelilingiKita')
+let fullHeliumMengelilingiKita = document.getElementById('fullHeliumMengelilingiKita')
+
+
+function readmoreHeliumMengelilingiKita(){
+    fullHeliumMengelilingiKita.style.display = 'block'
+    moreHeliumMengelilingiKita.style.visibility = "hidden";
+    
+}
+
+function showlessHeliumMengelilingiKita(){
+    fullHeliumMengelilingiKita.style.display = 'none'
+    moreHeliumMengelilingiKita.style.visibility = "visible";
+}
+moreHeliumMengelilingiKita.addEventListener('click', readmoreHeliumMengelilingiKita)
+
+
+//Bara Dalam Sekar
+let moreBaraDalamSekar = document.getElementById('moreBaraDalamSekar')
+let fullBaraDalamSekar = document.getElementById('fullBaraDalamSekar')
+
+
+function readmoreBaraDalamSekar(){
+    fullBaraDalamSekar.style.display = 'block'
+    moreBaraDalamSekar.style.visibility = "hidden";
+    
+}
+
+function showlessBaraDalamSekar(){
+    fullBaraDalamSekar.style.display = 'none'
+    moreBaraDalamSekar.style.visibility = "visible";
+}
+moreBaraDalamSekar.addEventListener('click', readmoreBaraDalamSekar)
+
+
+//Damba Lara Cinta
+let moreDambaLaraCinta = document.getElementById('moreDambaLaraCinta')
+let fullDambaLaraCinta = document.getElementById('fullDambaLaraCinta')
+
+
+function readmoreDambaLaraCinta(){
+    fullDambaLaraCinta.style.display = 'block'
+    moreDambaLaraCinta.style.visibility = "hidden";
+    
+}
+
+function showlessDambaLaraCinta(){
+    fullDambaLaraCinta.style.display = 'none'
+    lessDambaLaraCinta.style.visibility = "hidden";
+}
+moreDambaLaraCinta.addEventListener('click', readmoreDambaLaraCinta)
+
+//Reaktualisasi Poros Maritim
+let moreReaktualisasiPorosMaritim = document.getElementById('moreReaktualisasiPorosMaritim')
+let fullReaktualisasiPorosMaritim = document.getElementById('fullReaktualisasiPorosMaritim')
+
+function readmoreReaktualisasiPorosMaritim(){
+    fullReaktualisasiPorosMaritim.style.display = 'block'
+    moreReaktualisasiPorosMaritim.style.visibility = "hidden";
+}
+
+function showlessReaktualisasiPorosMaritim(){
+    fullReaktualisasiPorosMaritim.style.display = 'none'
+    moreReaktualisasiPorosMaritim.style.visibility = "visible";
+}
+moreReaktualisasiPorosMaritim.addEventListener('click', readmoreReaktualisasiPorosMaritim)
+
+//Nuansa Perdata
+let moreNuansaPerdata = document.getElementById('moreNuansaPerdata')
+let fullNuansaPerdata = document.getElementById('fullNuansaPerdata')
+
+function readmoreNuansaPerdata(){
+    fullNuansaPerdata.style.display = 'block'
+    moreNuansaPerdata.style.visibility = "hidden";
+}
+
+function showlessNuansaPerdata(){
+    fullNuansaPerdata.style.display = 'none'
+    moreNuansaPerdata.style.visibility = "visible";
+}
+moreNuansaPerdata.addEventListener('click', readmoreNuansaPerdata)
+
+
 //Kerugian Keuangan Negara
 let moreKerugianKeuanganNegara = document.getElementById('moreKerugianKeuanganNegara')
 let fullKerugianKeuanganNegara = document.getElementById('fullKerugianKeuanganNegara')
-let lessKerugianKeuanganNegara = document.getElementById('lessKerugianKeuanganNegara')
 
 function readmoreKerugianKeuanganNegara(){
     fullKerugianKeuanganNegara.style.display = 'block'
     moreKerugianKeuanganNegara.style.visibility = "hidden";
-    lessKerugianKeuanganNegara.style.visibility = "visible";
 }
 
 function showlessKerugianKeuanganNegara(){
     fullKerugianKeuanganNegara.style.display = 'none'
-    lessKerugianKeuanganNegara.style.visibility = "hidden";
     moreKerugianKeuanganNegara.style.visibility = "visible";
 }
 moreKerugianKeuanganNegara.addEventListener('click', readmoreKerugianKeuanganNegara)
-lessKerugianKeuanganNegara.addEventListener('click', showlessKerugianKeuanganNegara) 
 
 //Mendirikan Salat Menegakan Peradaban
 let moreMendirikanSalat = document.getElementById('moreMendirikanSalat')
 let fullMendirikanSalat = document.getElementById('fullMendirikanSalat')
-let lessMendirikanSalat = document.getElementById('lessMendirikanSalat')
 
 function readmoreMendirikanSalat(){
     fullMendirikanSalat.style.display = 'block'
     moreMendirikanSalat.style.visibility = "hidden";
-    lessMendirikanSalat.style.visibility = "visible";
 }
 
 function showlessMendirikanSalat(){
     fullMendirikanSalat.style.display = 'none'
-    lessMendirikanSalat.style.visibility = "hidden";
     moreMendirikanSalat.style.visibility = "visible";
 }
 moreMendirikanSalat.addEventListener('click', readmoreMendirikanSalat)
-lessMendirikanSalat.addEventListener('click', showlessMendirikanSalat) 
 
 //RahasiaGemini
 let moreRahasiaGemini = document.getElementById('moreRahasiaGemini')
 let fullRahasiaGemini = document.getElementById('fullRahasiaGemini')
-let lessRahasiaGemini = document.getElementById('lessRahasiaGemini')
 
 function readmoreRahasiaGemini(){
     fullRahasiaGemini.style.display = 'block'
     moreRahasiaGemini.style.visibility = "hidden";
-    lessRahasiaGemini.style.visibility = "visible";
 }
 
 function showlessRahasiaGemini(){
     fullRahasiaGemini.style.display = 'none'
-    lessRahasiaGemini.style.visibility = "hidden";
     moreRahasiaGemini.style.visibility = "visible";
 }
 moreRahasiaGemini.addEventListener('click', readmoreRahasiaGemini)
-lessRahasiaGemini.addEventListener('click', showlessRahasiaGemini)
  
  //Elegi
 let moreElegi = document.getElementById('moreElegi')
 let fullElegi = document.getElementById('fullElegi')
-let lessElegi = document.getElementById('lessElegi')
 
 function readmoreElegi(){
     fullElegi.style.display = 'block'
     moreElegi.style.visibility = "hidden";
-    lessElegi.style.visibility = "visible";
 }
 
 function showlessElegi(){
     fullElegi.style.display = 'none'
-    lessElegi.style.visibility = "hidden";
     moreElegi.style.visibility = "visible";
 }
 moreElegi.addEventListener('click', readmoreElegi)
-lessElegi.addEventListener('click', showlessElegi) 
  
  //Buku Kuning
  let moreBukuKuning = document.getElementById('moreBukuKuning')
  let fullBukuKuning = document.getElementById('fullBukuKuning')
- let lessBukuKuning = document.getElementById('lessBukuKuning')
  
  function readmoreBukuKuning(){
      fullBukuKuning.style.display = 'block'
      moreBukuKuning.style.visibility = "hidden";
-     lessBukuKuning.style.visibility = "visible";
  }
  
  function showlessBukuKuning(){
      fullBukuKuning.style.display = 'none'
-     lessBukuKuning.style.visibility = "hidden";
      moreBukuKuning.style.visibility = "visible";
  }
  moreBukuKuning.addEventListener('click', readmoreBukuKuning)
- lessBukuKuning.addEventListener('click', showlessBukuKuning)
 
 //Sembilan Bintang Farmasi
 let moresembilanBintangFarmasi = document.getElementById('moresembilanBintangFarmasi')
 let fullsembilanBintangFarmasi = document.getElementById('fullsembilanBintangFarmasi')
-let lesssembilanBintangFarmasi = document.getElementById('lesssembilanBintangFarmasi')
 
 function readmoresembilanBintangFarmasi(){
     fullsembilanBintangFarmasi.style.display = 'block'
     moresembilanBintangFarmasi.style.visibility = "hidden";
-    lesssembilanBintangFarmasi.style.visibility = "visible";
 }
 
 function showlesssembilanBintangFarmasi(){
     fullsembilanBintangFarmasi.style.display = 'none'
-    lesssembilanBintangFarmasi.style.visibility = "hidden";
     moresembilanBintangFarmasi.style.visibility = "visible";
 }
 moresembilanBintangFarmasi.addEventListener('click', readmoresembilanBintangFarmasi)
-lesssembilanBintangFarmasi.addEventListener('click', showlesssembilanBintangFarmasi) 
 
 
 //KHSKR
 let moreKHSKR = document.getElementById('moreKHSKR')
 let fullKHSKR = document.getElementById('fullKHSKR')
-let lessKHSKR = document.getElementById('lessKHSKR')
 
 function readmoreKHSKR(){
     fullKHSKR.style.display = 'block'
     moreKHSKR.style.visibility = "hidden";
-    lessKHSKR.style.visibility = "visible";
 }
 
 function showlessKHSKR(){
     fullKHSKR.style.display = 'none'
-    lessKHSKR.style.visibility = "hidden";
     moreKHSKR.style.visibility = "visible";
 }
 moreKHSKR.addEventListener('click', readmoreKHSKR)
-lessKHSKR.addEventListener('click', showlessKHSKR) 
 
 //Gagule
 let moreGagule = document.getElementById('moreGagule')
 let fullGagule = document.getElementById('fullGagule')
-let lessGagule = document.getElementById('lessGagule')
 
 function readmoreGagule(){
     fullGagule.style.display = 'block'
     moreGagule.style.visibility = "hidden";
-    lessGagule.style.visibility = "visible";
 }
 
 function showlessGagule(){
     fullGagule.style.display = 'none'
-    lessGagule.style.visibility = "hidden";
     moreGagule.style.visibility = "visible";
 }
 moreGagule.addEventListener('click', readmoreGagule)
-lessGagule.addEventListener('click', showlessGagule) 
 
 //Sabai
 let moreSabai = document.getElementById('moreSabai')
 let fullSabai = document.getElementById('fullSabai')
-let lessSabai = document.getElementById('lessSabai')
 
 function readmoreSabai(){
     fullSabai.style.display = 'block'
     moreSabai.style.visibility = "hidden";
-    lessSabai.style.visibility = "visible";
 }
 
 function showlessSabai(){
     fullSabai.style.display = 'none'
-    lessSabai.style.visibility = "hidden";
     moreSabai.style.visibility = "visible";
 }
 moreSabai.addEventListener('click', readmoreSabai)
-lessSabai.addEventListener('click', showlessSabai) 
 
 //LYN
 let moreLYN = document.getElementById('moreLYN')
 let fullLYN = document.getElementById('fullLYN')
-let lessLYN = document.getElementById('lessLYN')
 
 function readmoreLYN(){
     fullLYN.style.display = 'block'
     moreLYN.style.visibility = "hidden";
-    lessLYN.style.visibility = "visible";
 }
 
 function showlessLYN(){
     fullLYN.style.display = 'none'
-    lessLYN.style.visibility = "hidden";
     moreLYN.style.visibility = "visible";
 }
 moreLYN.addEventListener('click', readmoreLYN)
-lessLYN.addEventListener('click', showlessLYN) 
 
 
 //Dimensi Langit Manusia
 let moreDLM = document.getElementById('moreDLM')
 let fullDLM = document.getElementById('fullDLM')
-let lessDLM = document.getElementById('lessDLM')
 
 function readmoreDLM(){
     fullDLM.style.display = 'block'
     moreDLM.style.visibility = "hidden";
-    lessDLM.style.visibility = "visible";
 }
 
 function showlessDLM(){
     fullDLM.style.display = 'none'
-    lessDLM.style.visibility = "hidden";
     moreDLM.style.visibility = "visible";
 }
 moreDLM.addEventListener('click', readmoreDLM)
-lessDLM.addEventListener('click', showlessDLM) 
 
 
 //Cipta Kerja
 let moreCiptaKerja = document.getElementById('moreCiptaKerja')
 let fullCiptaKerja = document.getElementById('fullCiptaKerja')
-let lessCiptaKerja = document.getElementById('lessCiptaKerja')
 
 function readmoreCiptaKerja(){
     fullCiptaKerja.style.display = 'block'
     moreCiptaKerja.style.visibility = "hidden";
-    lessCiptaKerja.style.visibility = "visible";
 }
 
 function showlessCiptaKerja(){
     fullCiptaKerja.style.display = 'none'
-    lessCiptaKerja.style.visibility = "hidden";
     moreCiptaKerja.style.visibility = "visible";
 }
 moreCiptaKerja.addEventListener('click', readmoreCiptaKerja)
-lessCiptaKerja.addEventListener('click', showlessCiptaKerja) 
 
 
 //Misi
 let moreMisi = document.getElementById('moreMisi')
 let fullMisi = document.getElementById('fullMisi')
-let lessMisi = document.getElementById('lessMisi')
 
 function readmoreMisi(){
     fullMisi.style.display = 'block'
     moreMisi.style.visibility = "hidden";
-    lessMisi.style.visibility = "visible";
 }
 
 function showlessMisi(){
     fullMisi.style.display = 'none'
-    lessMisi.style.visibility = "hidden";
     moreMisi.style.visibility = "visible";
 }
 moreMisi.addEventListener('click', readmoreMisi)
-lessMisi.addEventListener('click', showlessMisi) 
 
 //PYKB
 let morePYKB = document.getElementById('morePYKB')
 let fullPYKB = document.getElementById('fullPYKB')
-let lessPYKB = document.getElementById('lessPYKB')
 
 function readmorePYKB(){
     fullPYKB.style.display = 'block'
     morePYKB.style.visibility = "hidden";
-    lessPYKB.style.visibility = "visible";
 }
 
 function showlessPYKB(){
     fullPYKB.style.display = 'none'
-    lessPYKB.style.visibility = "hidden";
     morePYKB.style.visibility = "visible";
 }
 morePYKB.addEventListener('click', readmorePYKB)
-lessPYKB.addEventListener('click', showlessPYKB) 
 
 
 //Bino
 let moreBino = document.getElementById('moreBino')
 let fullBino = document.getElementById('fullBino')
-let lessBino = document.getElementById('lessBino')
 
 function readmoreBino(){
     fullBino.style.display = 'block'
     moreBino.style.visibility = "hidden";
-    lessBino.style.visibility = "visible";
 }
 
 function showlessBino(){
     fullBino.style.display = 'none'
-    lessBino.style.visibility = "hidden";
     moreBino.style.visibility = "visible";
 }
 moreBino.addEventListener('click', readmoreBino)
-lessBino.addEventListener('click', showlessBino) 
 
 //Dayon
 let moredayon = document.getElementById('moredayon')
 let fulldayon = document.getElementById('fulldayon')
-let lessdayon = document.getElementById('lessdayon')
 
 function readmoredayon(){
     fulldayon.style.display = 'block'
     moredayon.style.visibility = "hidden";
-    lessdayon.style.visibility = "visible";
 }
 
 function showlessdayon(){
     fulldayon.style.display = 'none'
-    lessdayon.style.visibility = "hidden";
     moredayon.style.visibility = "visible";
 }
 moredayon.addEventListener('click', readmoredayon)
-lessdayon.addEventListener('click', showlessdayon) 
 
 
 //PTBMKTP
 let morePTBMKTP = document.getElementById('morePTBMKTP')
 let fullPTBMKTP = document.getElementById('fullPTBMKTP')
-let lessPTBMKTP = document.getElementById('lessPTBMKTP')
 
 function readmorePTBMKTP(){
     fullPTBMKTP.style.display = 'block'
     morePTBMKTP.style.visibility = "hidden";
-    lessPTBMKTP.style.visibility = "visible";
 }
 
 function showlessPTBMKTP(){
     fullPTBMKTP.style.display = 'none'
-    lessPTBMKTP.style.visibility = "hidden";
     morePTBMKTP.style.visibility = "visible";
 }
 morePTBMKTP.addEventListener('click', readmorePTBMKTP)
-lessPTBMKTP.addEventListener('click', showlessPTBMKTP) 
 
 //Revisi MKPSD
 let moreRevisiMKPSD = document.getElementById('moreRevisiMKPSD')
 let fullRevisiMKPSD = document.getElementById('fullRevisiMKPSD')
-let lessRevisiMKPSD = document.getElementById('lessRevisiMKPSD')
 
 function readmoreRevisiMKPSD(){
     fullRevisiMKPSD.style.display = 'block'
     moreRevisiMKPSD.style.visibility = "hidden";
-    lessRevisiMKPSD.style.visibility = "visible";
 }
 
 function showlessRevisiMKPSD(){
     fullRevisiMKPSD.style.display = 'none'
-    lessRevisiMKPSD.style.visibility = "hidden";
     moreRevisiMKPSD.style.visibility = "visible";
 }
 moreRevisiMKPSD.addEventListener('click', readmoreRevisiMKPSD)
-lessRevisiMKPSD.addEventListener('click', showlessRevisiMKPSD) 
 
 
 //MKPSD
 let moreMKPSD = document.getElementById('moreMKPSD')
 let fullMKPSD = document.getElementById('fullMKPSD')
-let lessMKPSD = document.getElementById('lessMKPSD')
 
 function readmoreMKPSD(){
     fullMKPSD.style.display = 'block'
     moreMKPSD.style.visibility = "hidden";
-    lessMKPSD.style.visibility = "visible";
 }
 
 function showlessMKPSD(){
     fullMKPSD.style.display = 'none'
-    lessMKPSD.style.visibility = "hidden";
     moreMKPSD.style.visibility = "visible";
 }
 moreMKPSD.addEventListener('click', readmoreMKPSD)
-lessMKPSD.addEventListener('click', showlessMKPSD) 
 
 
 //Deli
 let moredeli = document.getElementById('moredeli')
 let fulldeli = document.getElementById('fulldeli')
-let lessdeli = document.getElementById('lessdeli')
 
 function readmoredeli(){
     fulldeli.style.display = 'block'
     moredeli.style.visibility = "hidden";
-    lessdeli.style.visibility = "visible";
 }
 
 function showlessdeli(){
     fulldeli.style.display = 'none'
-    lessdeli.style.visibility = "hidden";
     moredeli.style.visibility = "visible";
 }
 moredeli.addEventListener('click', readmoredeli)
-lessdeli.addEventListener('click', showlessdeli) 
 
 
 //PPS
 let morePPS = document.getElementById('morePPS')
 let fullPPS = document.getElementById('fullPPS')
-let lessPPS = document.getElementById('lessPPS')
 
 function readmorePPS(){
     fullPPS.style.display = 'block'
     morePPS.style.visibility = "hidden";
-    lessPPS.style.visibility = "visible";
 }
 
 function showlessPPS(){
     fullPPS.style.display = 'none'
-    lessPPS.style.visibility = "hidden";
     morePPS.style.visibility = "visible";
 }
 morePPS.addEventListener('click', readmorePPS)
-lessPPS.addEventListener('click', showlessPPS) 
 
 
 //Siri
 let moresiri = document.getElementById('moresiri')
 let fullsiri = document.getElementById('fullsiri')
-let lesssiri = document.getElementById('lesssiri')
 
 function readmoresiri(){
     fullsiri.style.display = 'block'
     moresiri.style.visibility = "hidden";
-    lesssiri.style.visibility = "visible";
 }
 
 function showlesssiri(){
     fullsiri.style.display = 'none'
-    lesssiri.style.visibility = "hidden";
     moresiri.style.visibility = "visible";
 }
 moresiri.addEventListener('click', readmoresiri)
-lesssiri.addEventListener('click', showlesssiri) 
 
 
 //Load More
@@ -432,6 +573,10 @@ lesssiri.addEventListener('click', showlesssiri)
 let firstMore = document.getElementById('firstMore')
 let secondMore = document.getElementById('secondMore')
 let thirdMore = document.getElementById('thirdMore')
+let fourthMore= document.getElementById('fourthMore')
+let fifthMore= document.getElementById('fifthMore')
+let sixthMore= document.getElementById('sixthMore')
+
 
 let firstBookRow = document.getElementById('firstBookRow')
 let secondBookRow = document.getElementById('secondBookRow')
@@ -443,27 +588,55 @@ let seventhBookRow = document.getElementById('seventhBookRow')
 let eighthBookRow = document.getElementById('eighthBookRow')
 let ninthBookRow = document.getElementById('ninthBookRow')
 let tenthBookRow = document.getElementById('tenthBookRow')
+let eleventhBookRow = document.getElementById('eleventhBookRow')
+let twelfthBookRow = document.getElementById('twelfthBookRow')
+let thirteenthBookRow = document.getElementById('thirteenthBookRow')
+let fourteenthBookRow = document.getElementById('fourteenthBookRow')
+let fifteenthBookRow = document.getElementById('fifteenthBookRow')
+let sixteenthBookRow = document.getElementById('sixteenthBookRow')
+let seventeenthBookRow = document.getElementById('seventeenthBookRow')
+let eightteenthBookRow = document.getElementById('eightteenthBookRow')
 
-
-function firstMoreButton(){
-    firstMore.style.display = 'none'
-    secondMore.style.display = 'block'
-    eighthBookRow.style.display = 'flex'
-    seventhBookRow.style.display = 'flex'
-    
+function sixthMoreButton(){
+    sixthMore.style.display = 'none'
+    fifthMore.style.display = 'block'
+    fifteenthBookRow.style.display = 'flex'
+    fourteenthBookRow.style.display = 'flex'
 }
 
-function secondMoreButton(){
-    secondMore.style.display = 'none'
+
+function fifthMoreButton(){
+    fifthMore.style.display = 'none'
+    fourthMore.style.display = 'block'
+    thirteenthBookRow.style.display = 'flex'
+    twelfthBookRow.style.display = 'flex'
+}
+
+function fourthMoreButton(){
+    fourthMore.style.display = 'none'
     thirdMore.style.display = 'block'
-    sixthBookRow.style.display = 'flex'
-    fifthBookRow.style.display = 'flex'
-    fourthBookRow.style.display = 'flex'
-    
+    eleventhBookRow.style.display = 'flex'
+    tenthBookRow.style.display = 'flex'
+    ninthBookRow.style.display = 'flex'
 }
 
 function thirdMoreButton(){
     thirdMore.style.display = 'none'
+    secondMore.style.display = 'block'
+    eighthBookRow.style.display = 'flex'
+    seventhBookRow.style.display = 'flex'
+}
+
+function secondMoreButton(){
+    secondMore.style.display = 'none'
+    firstMore.style.display = 'block'
+    sixthBookRow.style.display = 'flex'
+    fifthBookRow.style.display = 'flex'
+    fourthBookRow.style.display = 'flex'
+}
+
+function firstMoreButton(){
+    firstMore.style.display = 'none'
     thirdBookRow.style.display = 'flex'
     secondBookRow.style.display = 'flex'
     firstBookRow.style.display = 'flex'
@@ -472,4 +645,7 @@ function thirdMoreButton(){
 firstMore.addEventListener('click', firstMoreButton)
 secondMore.addEventListener('click', secondMoreButton)
 thirdMore.addEventListener('click', thirdMoreButton)
+fourthMore.addEventListener('click',fourthMoreButton)
+fifthMore.addEventListener('click',fifthMoreButton)
+sixthMore.addEventListener('click',sixthMoreButton)
 
