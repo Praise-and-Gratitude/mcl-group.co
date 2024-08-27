@@ -1,3 +1,21 @@
+//Pelayaran Terakhir
+let morePelayaranTerakhir = document.getElementById('morePelayaranTerakhir')
+let fullPelayaranTerakhir = document.getElementById('fullPelayaranTerakhir')
+
+function readmorePelayaranTerakhir(){
+    fullPelayaranTerakhir.style.display = 'block'
+    morePelayaranTerakhir.style.visibility = "hidden";
+
+}
+
+function showlessPelayaranTerakhir(){
+    fullPelayaranTerakhir.style.display = 'none'
+    morePelayaranTerakhir.style.visibility = "visible";
+}
+
+morePelayaranTerakhir.addEventListener('click', readmorePelayaranTerakhir)
+
+
 //Reformulasi Uang Pengganti
 let moreReformulasiUangPengganti = document.getElementById('moreReformulasiUangPengganti')
 let fullReformulasiUangPengganti = document.getElementById('fullReformulasiUangPengganti')
